@@ -109,6 +109,32 @@ week1-sql-sales-analysis/
    - `day6_ctes_and_window_functions.sql`
    - `day7_advanced_window_functions.sql`
    - `day8_lag_lead_duplicates.sql`
+  
+## Query Results
+
+### Revenue by City
+
+![Revenue by City](screenshots/revenue%20by%20city.png)
+
+### Top Spending Customer
+
+![Top Spending Customer](screenshots/top%20spending%20customer.png)
+
+### Product Revenue Ranking
+
+![Product Revenue Ranking](screenshots/product%20revenue%20ranking.png)
+
+### Running Total Revenue
+
+![Running Total Revenue](screenshots/running%20total%20revenue.png)
+
+### Previous Day Revenue (LAG)
+
+![Previous Day Revenue](screenshots/previous%20day%20revenue%20\(lead\).png)
+
+### Next Day Revenue (LEAD)
+
+![Next Day Revenue](screenshots/Next%20day%20revenue%20\(lag\).png)
 
 ## Tools Used
 
