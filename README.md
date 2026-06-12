@@ -97,19 +97,6 @@ week1-sql-sales-analysis/
 └── screenshots/
 ```
 
-## How to Run This Project
-
-1. Open PostgreSQL or pgAdmin.
-2. Run `schema.sql` first.
-3. Run `insert_data.sql` second.
-4. Run the exercise files in order:
-   - `day3_joins_and_aggregations.sql`
-   - `day4_interview_questions.sql`
-   - `day5_subqueries.sql`
-   - `day6_ctes_and_window_functions.sql`
-   - `day7_advanced_window_functions.sql`
-   - `day8_lag_lead_duplicates.sql`
-  
 ## Query Results
 
 ### Revenue by City
@@ -128,13 +115,29 @@ week1-sql-sales-analysis/
 
 ![Running Total Revenue](screenshots/running%20total%20revenue.png)
 
-### Previous Day Revenue (LAG)
-
-![Previous Day Revenue](screenshots/previous%20day%20revenue%20\(lead\).png)
-
 ### Next Day Revenue (LEAD)
 
-![Next Day Revenue](screenshots/Next%20day%20revenue%20\(lag\).png)
+![Previous Day Revenue](screenshots/previous%20day%20revenue%20\(LAG\).png)
+
+### Previous Day Revenue (LAG)
+
+![Next Day Revenue](screenshots/Next%20Day%20Revenue%20\(LEAD\).png)
+
+
+## How to Run This Project
+
+1. Open PostgreSQL or pgAdmin.
+2. Run `schema.sql` first.
+3. Run `insert_data.sql` second.
+4. Run the exercise files in order:
+   - `day3_joins_and_aggregations.sql`
+   - `day4_interview_questions.sql`
+   - `day5_subqueries.sql`
+   - `day6_ctes_and_window_functions.sql`
+   - `day7_advanced_window_functions.sql`
+   - `day8_lag_lead_duplicates.sql`
+  
+
 
 ## Tools Used
 
